@@ -1,0 +1,405 @@
+* {
+    cursor: url(https://cur.cursors-4u.net/others/oth-7/oth706.ani), url(https://cur.cursors-4u.net/others/oth-7/oth706.png), auto !important;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, hsl(265, 55%, 4%), rgb(3, 3, 22));
+    height: 100vh;
+    /* Set height to fill the viewport */
+    width: 100vw;
+    /* Set width to fill the viewport */
+    cursor: url('/oth706.ani', auto);
+}
+
+
+h1 {
+    color: hsla(227, 100%, 84%, 1);
+    ;
+    text-align: center;
+    position: relative;
+    top: 540px;
+
+}
+
+.container {
+
+    width: 700px;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    right: -1217px;
+    top: -60px;
+    z-index: 4;
+
+}
+
+.animate {
+    opacity: 0;
+    background-color: rgb(26, 114, 245);
+    width: 147px;
+    height: 60px;
+    left: 0px;
+    position: absolute;
+    border-radius: 100px;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 0px 0 rgb(26, 114, 245);
+    transition: left .3s cubic-bezier(.075, .82, .165, 1), background-color .39s cubic-bezier(.075, .82, .165, 1), opacity .93s cubic-bezier(.075, .82, .165, 1), transform .5s linear, box-shadow .37s cubic-bezier(.075, .82, .165, 1);
+
+}
+
+.item-1 {
+    display: flex;
+    background-color: ;
+    border: 0px solid black;
+    width: 147px;
+    height: 60px;
+    border-radius: 100px;
+    flex: 0 0 147px;
+
+    font-family: 'ADLaM Display', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+
+}
+
+.item-1 p,
+.item-2 p,
+.item-3 p,
+.item-4 p {
+
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    letter-spacing: 1px;
+    top: 15px;
+    font-size: 22px;
+
+}
+
+
+
+/* Adding Text Edition inside Navbar div-1 */
+
+.item-1 p {
+
+    margin: auto;
+    width: 147px;
+    height: 60px;
+    left: 61px;
+}
+
+.item-2 {
+    display: flex;
+    background-color: ;
+    width: 120px;
+    height: 60px;
+    flex: 0 0 147px;
+    border-radius: 100px;
+    font-family: 'ADLaM Display', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* Adding Text Edition inside Navbar div-2 */
+
+.item-2 p {
+
+    margin: auto;
+    width: 147px;
+    height: 60px;
+    left: 230px;
+}
+
+.item-3 {
+    display: flex;
+    background-color: ;
+
+    height: 60px;
+    flex: 0 0 147px;
+    border-radius: 100px;
+    font-family: 'ADLaM Display', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* Adding Text Edition inside Navbar div-3 */
+
+.item-3 p {
+
+    margin: auto;
+    width: 147px;
+    height: 60px;
+    left: 387px;
+}
+
+.item-4 {
+    display: flex;
+    background-color: ;
+    border-radius: 100px;
+    height: 60px;
+    flex: 0 0 147px;
+    font-family: 'ADLaM Display', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* Adding Text Edition inside Navbar div-4*/
+
+.item-4 p {
+
+    margin: auto;
+    width: 147px;
+    height: 60px;
+    left: 574px;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+.dropdown {
+
+    display: block;
+    width: 166px;
+    height: 198px;
+    background-color: ;
+    overflow: hidden;
+    position: absolute;
+    top: 70px;
+    right: 186.5px;
+
+}
+
+.page1 {
+
+    width: 150px;
+    height: 60px;
+    background-color: #40e0ff6a;
+    border-top: 4px double skyblue;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    left: -146px;
+    opacity: 0;
+    transition: opacity .3s ease-in-out, left .3s ease-in-out;
+
+
+}
+
+
+.page2 {
+
+    width: 150px;
+    height: 60px;
+    background-color: #eaffea;
+    border-top: 4px double #aafff482;
+    border-bottom: 4px double #aafff482;
+    border-radius: 0px 0px 0px 0px;
+    position: relative;
+    left: -136px;
+    opacity: 0;
+    transition: opacity .55s .1s ease-in-out, left .3s .1s ease-in-out;
+
+
+
+}
+
+.page3 {
+
+    width: 150px;
+    height: 60px;
+    background-color: #40e0ff6a;
+    border-top: 1px double #eaffea;
+    border-bottom: 4px double skyblue;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    left: -126px;
+    opacity: 0;
+    transition: opacity .4s .2s ease-in-out, left .3s .2s ease-in-out;
+
+}
+
+.home {
+    color: black;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    border-radius: 25px;
+    width: 135px;
+    height: 45px;
+    background-image: url('Logo.png');
+    background-color: #ffdfaaa2;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 0 2px 0;
+
+}
+
+
+.avatar {
+
+    position: absolute;
+    top: 226px;
+    left: 140px;
+    width: 534px;
+    height: 534px;
+    background-image: url("/avatar.png");
+    background-color: transparent;
+    border-radius: 552px;
+    border: 9px solid #ffffff;
+
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+
+}
+
+
+
+.glass {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: transparent;
+    border-radius: 552px;
+    /* backdrop-filter: blur(8.7px); */
+    backdrop-filter: blur(0px);
+    perspective: 1000px;
+    transition: backdrop-filter .4s cubic-bezier(.075, .82, .165, 1);
+
+}
+
+.stick {
+
+    position: relative;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    transition: transform .19s ease-in;
+
+}
+
+/* .avatar:hover .stick{
+
+        transform: rotateY(180deg);
+
+  } */
+
+.sFront,
+.sBack {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 552px;
+    backface-visibility: hidden;
+
+}
+
+.sFront {
+
+    background-color: transparent;
+
+}
+
+.sBack {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: rotateY(180deg);
+
+
+    text-align: center;
+
+}
+
+.hire {
+    position: absolute;
+    top: 45px;
+    left: 178px;
+    font-size: 69px;
+    font-family: "Jersey 10", sans-serif;
+    color: #ff9900;
+
+}
+
+.pLorem {
+
+    position: absolute;
+    top: 200px;
+    left: 12px;
+    font-size: 39px;
+    font-family: "Jersey 10", sans-serif;
+    color: orange;
+
+}
+
+
+.container-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 144.999px;
+    left: 58.9px;
+
+    /* border: 6px solid rgb(255, 255, 255); */
+    fill: aqua;
+
+}
+
+.progress {
+    position: absolute;
+
+    opacity: 80%;
+    stroke: #ff9900;
+    stroke-width: 10;
+    transform-origin: center;
+    transform: rotate(-90deg);
+    fill: none;
+    stroke-dashoffset: 1928.387451171870;
+    stroke-linecap: round;
+    z-index: 1;
+    transition: stroke-dashoffset .6s cubic-bezier(.075, .82, .165, 1);
+
+}
+
+.progress.anime {
+
+    stroke-dashoffset: 0;
+    animation: scale 0.65s cubic-bezier(0.895, 0.030, 0.685, 0.220) both;
+}
+
+.smooth {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 534px;
+    height: 534px;
+    border-radius: 552px;
+    background-color: none;
+
+}
+
+
+
+/* :::::::::::::::::::::::::::::::::::::::Some Fonts:::::::::::::::::::::::::::::::::::: */
+
+@import url('https://fonts.cdnfonts.com/css/adlam-display');
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
