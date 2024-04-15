@@ -252,7 +252,7 @@ h1 {
     left: 140px;
     width: 534px;
     height: 534px;
-    background-image: url("/avatar.png");
+    background-image: url("https://raw.githubusercontent.com/Dev-Mahmud-git/Portfolio/master/avatar.png");
     background-color: transparent;
     border-radius: 552px;
     border: 9px solid #ffffff;
